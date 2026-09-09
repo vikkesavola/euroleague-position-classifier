@@ -135,7 +135,8 @@ def scrape_data():
   keep = ["gamesPlayed", "gamesStarted", "minutesPlayed",
         "twoPointersMade", "twoPointersAttempted", "threePointersMade",
         "threePointersAttempted", "offensiveRebounds", "defensiveRebounds",
-        "totalRebounds", "assists", "steals", "turnovers", "blocks"]
+        "totalRebounds", "assists", "steals", "turnovers", "blocks", "freeThrowsMade", 
+        "freeThrowsAttempted", "foulsDrawn"]
 
   for season in seasons:
     roster_positions = {}   # dictionary of player codes corresponding to their positions; season-specific
