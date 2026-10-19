@@ -1,5 +1,1 @@
-Working:
-
-`git pull`
-`uv run jupyter lab`  
-commit + push
+[Read the report](report.pdf)
